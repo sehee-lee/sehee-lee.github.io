@@ -27,7 +27,9 @@ description: Take and Go 개인정보 처리방침 / Privacy Policy
 
 ## 추적 및 광고
 
-앱은 사용자 활동을 추적하지 않으며, 광고나 제3자 분석(애널리틱스) 도구를 사용하지 않습니다.
+앱은 사용자 활동을 추적하지 않으며, 제3자 분석(애널리틱스) 도구를 사용하지 않습니다.
+
+앱은 광고를 표시하며, 광고는 **Google AdMob**을 사용합니다. AdMob은 광고 제공을 위해 광고 식별자 등 일부 정보를 수집·처리할 수 있습니다. 자세한 내용은 [Google의 개인정보처리방침](https://policies.google.com/privacy)을 참고해주세요.
 
 ## 데이터 삭제
 
@@ -65,7 +67,9 @@ All data (films, photos, notes, etc.) is stored only on **your device and your o
 
 ## Tracking & Ads
 
-The app does not track your activity and uses no advertising or third-party analytics tools.
+The app does not track your activity and uses no third-party analytics tools.
+
+The app displays ads using **Google AdMob**. AdMob may collect and process certain information, such as advertising identifiers, in order to serve ads. For details, please see [Google's Privacy Policy](https://policies.google.com/privacy).
 
 ## Data Deletion
 

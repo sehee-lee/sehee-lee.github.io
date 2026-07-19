@@ -15,7 +15,7 @@ description: Take and Go 앱 지원 및 문의 페이지
 
 앱 사용 중 궁금한 점이나 문제가 있으면 이메일로 연락해주세요. 최대한 빠르게 답변드릴게요.
 
-📧 **shtube0713@gmail.com**
+📧 **chadsehee@gmail.com**
 
 Have a question or found a problem? Email me anytime and I'll get back to you as soon as I can.
 

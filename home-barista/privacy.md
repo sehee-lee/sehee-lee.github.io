@@ -30,7 +30,7 @@ iCloud 동기화는 **독립적인 백업이 아닙니다.** 한 기기에서 �
 - **카메라**: 원두 봉투를 촬영해 정보를 읽는 '원두 스캔' 기능에서만 사용합니다. 촬영 시점에만 권한을 요청하며, 촬영한 사진을 사진 보관함에 자동 저장하지 않습니다.
 - **사진**: 사진을 고를 때 iOS의 사진 선택기를 사용합니다. 앱은 사진 보관함 전체 접근 권한을 요청하지 않으며, 사용자가 고른 사진만 전달받습니다.
 - **알림**: 참고 기간 알림, 원두 구매 알림, 타이머 단계 안내에 사용하는 **기기 내 로컬 알림**입니다. 사용자가 켠 경우에만 예약합니다.
-- **위치**: 앱은 **위치 권한을 요청하지 않습니다.** 날씨를 쓰려면 사용자가 지역을 직접 검색해 선택합니다.
+- **위치**: 앱은 **위치 권한을 요청하지 않습니다.** 날씨를 쓰려면 사용자가 지역을 직접 검색해 선택합니다. 광고 SDK가 IP 주소로 추정하는 대략적인 위치는 아래 ‘추적 및 광고’를 참고해주세요.
 
 권한은 언제든 iPhone **설정 앱 > Home Barista** 에서 변경할 수 있습니다.
 
@@ -57,6 +57,8 @@ iCloud 동기화는 **독립적인 백업이 아닙니다.** 한 기기에서 �
 앱은 사용자 활동을 추적하지 않으며, 개발자가 사용하는 제3자 분석(애널리틱스) 도구가 없습니다. 앱은 **App Tracking Transparency(ATT) 동의를 요청하지 않고, 광고 식별자(IDFA)에 접근하지 않습니다.**
 
 앱은 광고를 표시하며, 광고는 **Google AdMob**을 사용합니다. AdMob은 광고 제공을 위해 일부 정보를 수집·처리할 수 있습니다. 자세한 내용은 [Google의 개인정보처리방침](https://policies.google.com/privacy)을 참고해주세요.
+
+수집될 수 있는 정보에는 기기 식별자, 광고 및 앱 사용 데이터, 진단 정보와 함께 **IP 주소에서 추정한 대략적인 위치**가 포함됩니다. 앱이 기기의 위치 권한을 요청하거나 기기 위치를 사용하는 것은 아닙니다.
 
 거주 지역에서 동의 관리가 필요한 경우, 앱 안의 **설정 > 개인정보 > 광고 개인정보 설정**에서 언제든 선택을 변경할 수 있습니다.
 
@@ -109,7 +111,7 @@ iCloud sync is **not a separate backup.** Deleting data on one device deletes it
 - **Camera**: used only by Scan Bean, to read a coffee bag. Permission is requested at the moment you take a photo, and captured photos are not saved to your photo library.
 - **Photos**: the app uses the system photo picker. It does not request full photo library access and only receives the photos you choose.
 - **Notifications**: **local notifications only**, for drinking-window reminders, restock reminders and timer step alerts. Scheduled only when you turn them on.
-- **Location**: the app **never requests location access.** To use weather, you search for and choose a place yourself.
+- **Location**: the app **never requests location access.** To use weather, you search for and choose a place yourself. For the coarse location the ad SDK estimates from your IP address, see Tracking & Ads below.
 
 You can change permissions any time in **Settings > Home Barista** on your iPhone.
 
@@ -136,6 +138,8 @@ Weather is an **optional** aid for brew suggestions. Every feature of the app wo
 The app does not track your activity and uses no third-party analytics on the developer's behalf. The app does **not request App Tracking Transparency (ATT) consent and does not access the advertising identifier (IDFA).**
 
 The app displays ads using **Google AdMob**. AdMob may collect and process certain information in order to serve ads. For details, see [Google's Privacy Policy](https://policies.google.com/privacy).
+
+What it may collect includes device identifiers, advertising and app usage data, diagnostics, and a **coarse location estimated from your IP address**. The app itself neither requests location permission nor uses your device's location.
 
 Where consent management is required in your region, you can change your choices any time in the app under **Settings > Privacy > Ad privacy settings**.
 

@@ -5,7 +5,7 @@ description: Take and Go 개인정보 처리방침 / Privacy Policy
 
 # 개인정보 처리방침 (Privacy Policy)
 
-최종 수정일: 2026-07-19
+최종 수정일: 2026-09-22
 
 가자,찍자!(Take and Go, 이하 "앱")는 사용자의 개인정보를 소중하게 생각합니다. 이 방침은 앱이 어떤 정보를 사용하고 어떻게 처리하는지 설명합니다.
 
@@ -14,7 +14,7 @@ description: Take and Go 개인정보 처리방침 / Privacy Policy
 앱은 사용자를 식별하는 개인정보를 개발자에게 **수집하거나 전송하지 않습니다.** 앱은 다음 정보를 **사용자의 기기 및 사용자 본인의 iCloud 계정 내에서만** 사용합니다.
 
 - **사진**: 사용자가 직접 선택한 사진과 그 사진에 포함된 촬영 시간·위치(GPS) 정보. 여행 경로를 지도에 표시하는 데 사용됩니다.
-- **위치**: 지도에서 현재 위치를 표시하기 위해서만 사용됩니다. 사용자의 위치를 저장하거나 외부로 전송하지 않습니다.
+- **위치**: 지도에서 현재 위치를 표시하기 위해서만 사용됩니다. 사용자의 위치를 저장하거나 외부로 전송하지 않습니다. 광고 SDK가 IP 주소로 추정하는 대략적인 위치는 아래 ‘추적 및 광고’를 참고해주세요.
 
 ## 정보의 저장
 
@@ -27,9 +27,13 @@ description: Take and Go 개인정보 처리방침 / Privacy Policy
 
 ## 추적 및 광고
 
-앱은 사용자 활동을 추적하지 않으며, 제3자 분석(애널리틱스) 도구를 사용하지 않습니다.
+개발자는 사용자의 앱 사용 기록을 수집하지 않으며, 앱에는 제3자 분석(애널리틱스) 도구가 없습니다. 다만 광고를 위해 아래와 같이 추적 권한을 요청합니다.
 
-앱은 광고를 표시하며, 광고는 **Google AdMob**을 사용합니다. AdMob은 광고 제공을 위해 광고 식별자 등 일부 정보를 수집·처리할 수 있습니다. 자세한 내용은 [Google의 개인정보처리방침](https://policies.google.com/privacy)을 참고해주세요.
+앱은 광고를 표시하며, 광고는 **Google AdMob**을 사용합니다. AdMob은 광고 제공을 위해 일부 정보를 수집·처리할 수 있습니다. 자세한 내용은 [Google의 개인정보처리방침](https://policies.google.com/privacy)을 참고해주세요.
+
+수집될 수 있는 정보에는 기기 식별자, 광고 및 앱 사용 데이터, 진단 정보와 함께 **IP 주소에서 추정한 대략적인 위치**가 포함됩니다. 이는 앱이 지도 기능을 위해 요청하는 기기 위치 권한과는 별개입니다.
+
+앱은 맞춤형 광고를 위해 iOS의 **App Tracking Transparency(ATT)** 추적 권한을 요청합니다. **허용하지 않아도 앱의 모든 기능을 그대로 사용할 수 있으며**, 이 경우 맞춤형이 아닌 광고가 표시됩니다. 선택은 iPhone **설정 앱 > 개인정보 보호 및 보안 > 추적**에서 언제든 바꿀 수 있습니다.
 
 ## 데이터 삭제
 
@@ -45,7 +49,7 @@ description: Take and Go 개인정보 처리방침 / Privacy Policy
 
 # Privacy Policy (English)
 
-Last updated: 2026-07-19
+Last updated: 2026-09-22
 
 Take and Go ("the app") respects your privacy. This policy explains what information the app uses and how it is handled.
 
@@ -54,7 +58,7 @@ Take and Go ("the app") respects your privacy. This policy explains what informa
 The app does **not collect or transmit any personally identifying information to the developer.** The following information is used **only on your device and within your own iCloud account**:
 
 - **Photos**: Photos you choose, and the capture time and location (GPS) data embedded in them, used to draw your trip route on the map.
-- **Location**: Used only to show your current location on the map. Your location is never stored or transmitted.
+- **Location**: Used only to show your current location on the map. Your location is never stored or transmitted. For the coarse location the ad SDK estimates from your IP address, see Tracking & Ads below.
 
 ## Storage
 
@@ -67,9 +71,13 @@ All data (films, photos, notes, etc.) is stored only on **your device and your o
 
 ## Tracking & Ads
 
-The app does not track your activity and uses no third-party analytics tools.
+The developer does not collect your app usage history, and the app contains no third-party analytics tools. It does, however, ask for tracking permission for advertising, as described below.
 
-The app displays ads using **Google AdMob**. AdMob may collect and process certain information, such as advertising identifiers, in order to serve ads. For details, please see [Google's Privacy Policy](https://policies.google.com/privacy).
+The app displays ads using **Google AdMob**. AdMob may collect and process certain information in order to serve ads. For details, please see [Google's Privacy Policy](https://policies.google.com/privacy).
+
+What it may collect includes device identifiers, advertising and app usage data, diagnostics, and a **coarse location estimated from your IP address**. This is separate from the device location permission the app requests for its map features.
+
+The app asks for iOS **App Tracking Transparency (ATT)** permission in order to show personalized ads. **You can use every feature of the app without granting it**; in that case you will see non-personalized ads instead. You can change your choice any time in **Settings > Privacy & Security > Tracking** on your iPhone.
 
 ## Data Deletion
 

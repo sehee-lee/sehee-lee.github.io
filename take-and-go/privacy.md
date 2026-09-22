@@ -39,7 +39,7 @@ description: Take and Go 개인정보 처리방침 / Privacy Policy
 
 개인정보 처리방침에 대한 문의는 아래로 연락해주세요.
 
-📧 **shtube0713@gmail.com**
+📧 **chadsehee@gmail.com**
 
 ---
 
@@ -79,7 +79,7 @@ Deleting a film in the app, or deleting the app from your iPhone, removes the as
 
 For questions about this privacy policy, contact:
 
-📧 **shtube0713@gmail.com**
+📧 **chadsehee@gmail.com**
 
 ---
 

@@ -53,7 +53,7 @@ Have a question or found a problem? Email me anytime and I'll get back to you as
 
 가자,찍자!는 사용자의 사진과 위치 정보를 **앱 기능 제공 목적으로만** 사용하며, 모든 데이터는 사용자의 기기와 iCloud에만 저장됩니다. 개발자는 사용자의 데이터를 수집하거나 제3자에게 제공하지 않습니다.
 
-자세한 내용은 [개인정보 처리방침](privacy.md)을 참고하세요.
+자세한 내용은 [개인정보 처리방침](privacy.html)을 참고하세요.
 
 ---
 
